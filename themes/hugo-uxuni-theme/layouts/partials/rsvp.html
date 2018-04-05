@@ -1,11 +1,16 @@
 <section id="rsvp" style="background: #212b33;">
-    <div class="wrapper" style="visibility: visible;  -webkit-transform: translateY(20px) scale(0.9); opacity: 0;transform: translateY(20px) scale(0.9); opacity: 0;">
-        <h2 class="section-subtitle" style="color:white;">{{ .Site.Params.rsvp.Subtitle }}</h2>
-        <a href="{{ .Site.Params.rsvp.cta_link }}" class="section-title" style="color: white; display: flex; text-decoration: none;">{{ .Site.Params.rsvp.Title }}<svg class="arrow" style="padding: 0px; margin-left: 6px; width: auto !important; position: relative; top: 4px;" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)">
-            <line data-cap="butt" data-color="color-2" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line>
-            <polyline fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="15,5 22,12 15,19" stroke-linejoin="miter"></polyline>
-        </g></svg></a>
-        <p class="section-paragraph" style="color: white; padding-bottom: 2.2em;; visibility: visible;  -webkit-transform: translateY(20px) scale(0.9); opacity: 0;transform: translateY(20px) scale(0.9); opacity: 0;" data-sr-id="39">{{ .Site.Params.rsvp.Description }}</p>
+    <div class="wrapper">
+        <h2 class="section-subtitle" style="color:white">{{ .Site.Params.rsvp.Subtitle }}</h2>
+        <a href="{{ .Site.Params.rsvp.cta_link }}" class="section-title" style="color: white; display: flex; text-decoration: none;">
+            {{ .Site.Params.rsvp.Title }}
+            <svg class="arrow" style="padding: 0px; margin-left: 6px; width: auto !important; position: relative; top: 4px;" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
+                <g transform="translate(0, 0)">
+                    <line data-cap="butt" data-color="color-2" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line>
+                    <polyline fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="15,5 22,12 15,19" stroke-linejoin="miter"></polyline>
+                </g>
+            </svg>
+        </a>
+        <p class="section-paragraph" style="color: white; padding-bottom: 2.2em;">{{ .Site.Params.rsvp.Description }}</p>
         <a href="{{ .Site.Params.rsvp.cta_link }}" class="cta">{{ .Site.Params.rsvp.cta_btn }}</a>
     </div>
 </section>
