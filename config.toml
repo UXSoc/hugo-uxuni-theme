@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "http://determined-shirley-688617.netlify.com"
 languageCode = "en-us"
 title = "UX University • The Great Ateneo Design Challenge | February 19 to April 2 • Ateneo de Manila University"
 theme = "hugo-uxuni-theme"
