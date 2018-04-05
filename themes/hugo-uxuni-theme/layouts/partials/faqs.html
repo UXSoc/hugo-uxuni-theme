@@ -1,0 +1,18 @@
+<section id="faqs">
+    <div class="element2">
+        <div class="wrapper ">
+            <h2 class="section-subtitle">{{ .Site.Params.faqs.subtitle }}</h2>
+            <h1 class="section-title">{{ .Site.Params.faqs.title }}</h1>
+
+            {{ range .Site.Params.qa }}
+                <p class="section-paragraph">
+                    <span style="color: black; font-size: 15px;">{{ .question | safeHTML }}</span><br>
+                    {{ .answer | safeHTML }}
+                </p>
+            {{ end }}
+
+            <a href="{{ .Site.Params.faqs.next_section_id }}" class="section-button" data-scroll>{{ .Site.Params.faqs.next_section_btn }}</a>
+            <a href="{{ .Site.Params.faqs.cta_link }}" class="cta" target="blank">{{ .Site.Params.faqs.cta_btn }}</a>
+        </div>
+    </div>
+</section>

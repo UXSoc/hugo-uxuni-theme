@@ -1,0 +1,141 @@
+baseURL = ""
+languageCode = "en-us"
+title = "UX University • The Great Ateneo Design Challenge | February 19 to April 2 • Ateneo de Manila University"
+theme = "hugo-uxuni-theme"
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+[params]
+    theme_color = "#365AAA"
+    content_title = "UX University • The Great Ateneo Design Challenge"
+    description = "UX University is a 6-week course and competition created to equip you with the right skills, tools, and mindset to solve pressing issues in the community through user experience design."
+
+[params.nav]
+    enable = true
+    title = "The Great Ateneo Design Challenge"
+    subtitle = "February 19 to April 2 • Ateneo de Manila University"
+
+[params.about]
+    enable = true
+    subtitle = "A PROGRAM FOR EVERYONE"
+    title = "UX University is a 6-week course and competition created to equip you with the right skills, tools, and mindset to solve pressing issues in the community through user experience design."
+    paragraph1 = "This course prepares you to jumpstart your career as a designer who can apply user experience in improving products and services."
+    paragraph2 = "Our aim is to shape you into a changemaker through design (as we like to call it, a “design leader”), where you can immediately apply learnings in an Atenean and Philippine context."
+    next_section_btn = "CURRICULUM"
+    next_section_id = "#curriculum"
+    cta_btn = "SIGN UP"
+    cta_link = "http://bit.ly/UXUni18Signups"
+
+[params.curriculum]
+    enable = true
+    subtitle = "CURRICULUM"
+    title = "We created UX University to teach you the design process from the ground up. No experience required. Learn to:"
+    objectives = [
+        "Fall in love with the problem",
+        "Empathize with users and gather actionable insights",
+        "Understand and analyze the user journey",
+        "Define product functionality",
+        "Propose a user or interaction flow",
+        "Ideate concepts and solutions through sketching",
+        "Create beautiful and usable user interfaces",
+        "Develop a prototype without coding or programming",
+        "Validate your ideas",
+        "Refine your prototype",
+        "Build a career in user experience design"
+    ]
+    next_section_btn = "CURRICULUM"
+    next_section_id = "#competition"
+    cta_btn = "SIGN UP"
+    cta_link = "http://bit.ly/UXUni18Signups"
+
+[params.competition]
+    enable = true
+    subtitle1 = "THE COMPETITION"
+    title = "Up to P20,000 worth of cash is up for grabs in the Great Ateneo Design Challenge. Will you be the one to win?"
+    paragraph1 = "In UX University, aside from attending our weekly talks and workshops, you’ll be working individually on a design project. This will let you directly apply the skills from each session towards solving a specific design problem. We’ve handpicked some of the problems present in AdMU which you can use for this competition."
+    subtitle2 = "THE CASES"
+    cases = [
+        "Re-designing the AISIS Enlistment System",
+        "Re-designing the AISIS Professor Evaluation System",
+        "Creating an Ateneo Profs to Pick Website/App",
+        "Creating a Carpooling Website/App/System for Ateneans",
+        "Creating a Venue Reservation System",
+        "Creating a way of reducing Ateneans’ Carbon Footprint",
+        "Create your own case and have us check it"
+    ]
+    case_paragraphs = [
+        "You are not limited to these topics—you are free to submit your own design problem/prompt that you can work on for UX University. As long as it helps solve a certain problem through designing a website, app, or system, we can consider it.",
+        "To encourage solving a wide cross-section of problems from our community, only a limited number of participants will be allowed to work on each case or problem.",
+        "Also, please take note that you will be building a digital solution which may take the form of a website, application, or a combination of several digital tools and services to solve the problem. We are encouraging the use of digital solutions because these can more easily scale towards addressing a wider audience, and it is much easier to apply UX methods and tools through digital solutions."
+    ]
+
+    subtitle3 = "EVALUATION"
+    eval_paragraph = "At the end of the course, you will be presenting your design solutions to a panel of judges who are key players of the design and tech industry in the Philippines. Your project will be evaluated based on the following criteria:"
+    eval_criteria = [
+        "Design Process: 40%",
+        "Visual Design: 20%",
+        "Take Home Design Challenges: 25%",
+        "Attendance: 15%"
+    ]
+    eval_paragraph2 = 'The winners of the competition will receive cash prizes worth <span style="color: black">P10,000 (1st place), P7,000 (2nd place) and P3,000 (3rd place)</span>, and will be given priority in applying for Executive Board or officer positions in User Experience Society next year.'
+
+    subtitle4 = "RULES"
+    rules_paragraphs = [
+        '1. Participants of the competition must attend <span style="color: black">at least 3 sessions</span> of UX University. Failure to attend at least three classes disqualifies the participant from the competition.',
+        '2. Participants can consult with invited mentors about their design projects. They can also choose to consult with their personal mentors outside of Ateneo.',
+        '3. Design challenges and prompts for the competition <span style="color: black">must be done individually</span>. If proven that the outputs are done by someone else, the participant will immediately be disqualified.',
+        '4. Design challenges are to be submitted on or before 12AM on the day of the next session. Design challenges account for 25% of the judging criteria. A participant will receive a score of 0/10 for every time he or she fails to submit the design challenge output.',
+        '5. The pitch deck for the competition must be uploaded on the UX University Google Drive (to be posted in the Facebook group) on or before 12AM on the day of the competition.',
+        '6. The order of presentations will be announced on the competition day.'
+    ]
+    next_section_btn = "SPEAKERS"
+    next_section_id = "#mentors"
+    cta_btn = "BRING IT ON"
+    cta_link = "http://bit.ly/UXUni18Signups"
+
+[params.mentors]
+    enable = true
+    subtitle = "SPEAKERS & MENTORS"
+    title = "You’re in good hands. The most experienced designers of UX Society lead this year’s roster of speakers and mentors."
+    next_section_btn = "FAQS"
+    next_section_id = "#faqs"
+    cta_btn = "LET'S DO IT"
+    cta_link = "http://bit.ly/UXUni18Signups"
+
+[params.faqs]
+    enable = true
+    subtitle = "FREQUENTLY ASKED QUESTIONS"
+    title = "You’re in good hands. The most experienced designers of UX Society lead this year’s roster of speakers and mentors."
+    next_section_btn = "RSVP"
+    next_section_id = "#rsvp"
+    cta_btn = "SIGN UP"
+    cta_link = "http://bit.ly/UXUni18Signups"
+
+[params.rsvp]
+    enable = true
+    subtitle = "UX University Class 2"
+    title = "Defining the Product Experience"
+    description = "Hello! Let us know that you're coming this Feb. 26 at SOM 211, Ateneo de Manila University. Laura Ang and Dominique Pascasio will be teaching for the second session!"
+    cta_btn = "RSVP"
+    cta_link = "https://www.facebook.com/events/174909696539272/"
+
+[[params.qa]]
+question = "1. How much is the registration fee?"
+answer = "This event is free of charge. 💙"
+[[params.qa]]
+question = "2. I don’t have any experience in design or in UX, can I still join?"
+answer = "That's perfect. You don’t need to have any experience in UX to join the event. We will be teaching you all the things you need to know for the competition. 😼"
+[[params.qa]]
+question = "3. I’m a professional, can I join?"
+answer = "Everyone is welcome to attend the talks and workshops. However, for the competition, only students from the Ateneo are allowed to join. 🤓"
+[[params.qa]]
+question = "4. What if I miss a session?"
+answer = "If you miss a session, please inform us so we can send you materials from the talk and workshop, as well as the take home design challenge. Although, please take note that we require competition participants to attend at least three sessions. If you miss the minimum requirement, you will be disqualified from the competition. 💩"
+[[params.qa]]
+question = "5. What do I need to bring in each class?"
+answer = "We will be announcing the things to bring for each session through the Facebook event page, so please make sure to click “Going” so you will be able to get our announcements and reminders. 💻"
+[[params.qa]]
+question = "6. Is there a dress code for the competition day?"
+answer = "We recommend smart casual attire for the competition day. 👔"
+[[params.qa]]
+question = "7. Do I get a certificate after finishing the course?"
+answer = "We will send a digital certificate to your email after you’ve finished the course. 🔖"

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="/js/sweet-scroll.min.js"></script>
+<a href="#" id="floating-button" data-scroll>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g  transform="translate(0, 0)">
+        <line data-cap="butt" data-color="color-2" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" x1="12" y1="22" x2="12" y2="2" stroke-linejoin="miter" stroke-linecap="butt"/>
+        <polyline fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="5,9 12,2 19,9 " stroke-linejoin="miter"/>
+    </g></svg>
+</a>
+<header>
+    <div class="flex" style="display: flex; justify-content: center; align-items: center;">
+        <img src="/logo.png" class="logo" alt="">
+        <img src="/uxsoc.png" style="width: 170px; position: relative; top: -12px;" alt="">
+    </div>
+    <h1>{{ .Site.Params.Nav.Title }}</h1>
+    <h2>{{ .Site.Params.Nav.Subtitle }}</h2>
+
+
+    <div class="button-group">
+        <a href="#about" class="button" data-scroll>ABOUT</a>
+        <a href="#curriculum" class="button" data-scroll>CURRICULUM</a>
+        <a href="#competition" class="button" data-scroll>COMPETITION</a>
+        <a href="#mentors" class="button" data-scroll>MENTORS</a>
+        <a href="#faqs" class="button" data-scroll>FAQs</a>
+        <a href="#rsvp" class="button" data-scroll>RSVP</a>
+    </div>
+</header>
+
+{{ if .Site.Params.about.enable }}
+{{ partial "about.html" . }}
+{{ end }}
+
+{{ if .Site.Params.curriculum.enable }}
+{{ partial "curriculum.html" . }}
+{{ end }}
+
+{{ if .Site.Params.competition.enable }}
+{{ partial "competition.html" . }}
+{{ end }}
+
+{{ if .Site.Params.mentors.enable }}
+{{ partial "mentors.html" . }}
+{{ end }}
+
+{{ if .Site.Params.faqs.enable }}
+{{ partial "faqs.html" . }}
+{{ end }}
+
+{{ if .Site.Params.rsvp.enable }}
+{{ partial "rsvp.html" . }}
+{{ end }}
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

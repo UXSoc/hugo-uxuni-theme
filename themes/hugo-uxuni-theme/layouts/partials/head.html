@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name='theme-color' content='#365AAA'>
+<!-- title -->
+<title>{{ .Site.Title }}</title>
+<meta property='og:title'  content='{{ .Site.Params.content_title }}'>
+<meta name='twitter:title' content='{{ .Site.Params.content_title }}'>
+
+<!-- url -->
+<link rel='canonical'       href='{{ .Site.BaseURL }}'>
+<meta property='og:url'  content='{{ .Site.BaseURL }}'>
+<meta name='twitter:url' content='{{ .Site.BaseURL }}'>
+
+<!-- description -->
+<meta name='description'         content='{{ .Site.Params.Description }}'>
+<meta property='og:description'  content='{{ .Site.Params.Description }}'>
+<meta name='twitter:description' content='{{ .Site.Params.Description }}'>
+
+<!-- image -->
+<meta property="og:image"  content="http://uxuni.uxsociety.org/featured-image-new.png">
+<meta name="twitter:image" content="http://uxuni.uxsociety.org/featured-image-new.png">
+<link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}/uxu.png" />
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
