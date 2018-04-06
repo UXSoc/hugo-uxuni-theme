@@ -11,7 +11,7 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params.nav]
     enable = true
-    title = "The Great Ateneo Design Challenge"
+    title = "The Great Chapman Design Challenge"
     subtitle = "February 19 to April 2 • Ateneo de Manila University"
 
 [params.about]
